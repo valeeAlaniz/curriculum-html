@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cursos | Currículum de Valentina Alaniz</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <header>
@@ -19,7 +20,7 @@
         <li><a href="experiencia.html">Experiencia Profesional</a></li>
         <li><a href="educacion.html">Educación</a></li>
         <li><a href="habilidades.html">Habilidades</a></li>
-        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="cursos.html" aria-current="page">Cursos</a></li>
         <li><a href="referencias.html">Referencias</a></li>
       </ul>
     </nav>
@@ -28,24 +29,43 @@
   <main>
     <section>
       <h2>Cursos</h2>
-      <ol>
-        <li>
-          <h3>Desarrollo Web Full Stack</h3>
-          <p>Plataforma Aprende Online – <time datetime="2023">2023</time> – 120 horas</p>
-        </li>
-        <li>
-          <h3>Accesibilidad Web (WCAG 2.2)</h3>
-          <p>Fundación Digital Inclusiva – <time datetime="2022">2022</time> – 40 horas</p>
-        </li>
-        <li>
-          <h3>Metodologías Ágiles: Scrum</h3>
-          <p>Escuela de Negocios del Centro – <time datetime="2021">2021</time> – 30 horas</p>
-        </li>
-        <li>
-          <h3>Inglés Técnico para Programadores</h3>
-          <p>Instituto de Idiomas – <time datetime="2020">2020</time> – 60 horas</p>
-        </li>
-      </ol>
+      <table>
+        <caption>Cursos realizados, con institución, año y carga horaria</caption>
+        <thead>
+          <tr>
+            <th scope="col">Curso</th>
+            <th scope="col">Institución</th>
+            <th scope="col">Año</th>
+            <th scope="col">Horas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Desarrollo Web Full Stack</th>
+            <td>Plataforma Aprende Online</td>
+            <td><time datetime="2023">2023</time></td>
+            <td>120</td>
+          </tr>
+          <tr>
+            <th scope="row">Accesibilidad Web (WCAG 2.2)</th>
+            <td>Fundación Digital Inclusiva</td>
+            <td><time datetime="2022">2022</time></td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <th scope="row">Metodologías Ágiles: Scrum</th>
+            <td>Escuela de Negocios del Centro</td>
+            <td><time datetime="2021">2021</time></td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <th scope="row">Inglés Técnico para Programadores</th>
+            <td>Instituto de Idiomas</td>
+            <td><time datetime="2020">2020</time></td>
+            <td>60</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </main>
 
